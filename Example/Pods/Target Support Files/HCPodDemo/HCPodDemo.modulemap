@@ -1,0 +1,6 @@
+framework module HCPodDemo {
+  umbrella header "HCPodDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -4,11 +4,4 @@ platform :ios, '9.0'
 
 target 'HCPodDemo_Example' do
   pod 'HCPodDemo', :path => '../'
-
-  target 'HCPodDemo_Tests' do
-    inherit! :search_paths
-
-    pod 'Specta'
-    pod 'Expecta'
-  end
 end
